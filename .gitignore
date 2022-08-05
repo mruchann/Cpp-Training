@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+TODO.md
+.DS_Store
+
