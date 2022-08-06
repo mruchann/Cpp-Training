@@ -1,5 +1,8 @@
-#include <iostream> // includes std object.
-#include "Log.h" // a function should be declared before it is used.
+#include "log.h"
+#include "common.h"
+#include "common.h"
+
+// This doesn't give an error surprisingly. Modern C++ handles it.
 
 int main(){
     Log("Hello World!");

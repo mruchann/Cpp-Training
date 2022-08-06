@@ -1,8 +1,7 @@
-#if 1 // instructions to the compiler 
-
+#include <iostream> // includes std object.
 void Log(const char* _ ); // only type matters in declaration.
 
-#endif
+// a function should be declared before it is used.
 
 // don't put function definitions in header files, if you include them more than one, you'll get an error.
 // put the function declaration into the .h file, then include it when needed.
