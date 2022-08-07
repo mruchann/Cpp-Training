@@ -1,5 +1,5 @@
 // A translation unit is the basic unit of compilation in C++.
-// .h - .cpp
+// .hpp - .cpp
 // If we declare a function in a seperate file, we'll increse the number of translation unit.
 // '#' -> preprocessor directive
 // '#pragma once' -> only include this file once in a one translation unit.
@@ -7,7 +7,7 @@
 // '#pragma once' > ifndef... 
 
 /*
-In .h files:
+In .hpp files:
 
 #ifndef _LOG_H
 #define _LOG_H

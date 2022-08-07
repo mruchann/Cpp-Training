@@ -1,6 +1,6 @@
-#include "log.h"
-#include "common.h"
-#include "common.h"
+#include "log.hpp"
+#include "common.hpp"
+#include "common.hpp"
 
 // This doesn't give an error surprisingly. Modern C++ handles it.
 
