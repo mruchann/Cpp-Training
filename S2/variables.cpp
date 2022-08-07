@@ -9,6 +9,8 @@
 // bool
 // sizeof operator
 // pointers, references
+// C -> NULL
+// C++ -> nullptr
 
 int main(){
     unsigned int var1 = 2500000000;

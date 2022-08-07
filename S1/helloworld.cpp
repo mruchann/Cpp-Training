@@ -16,4 +16,5 @@ int main(){
 // std::cout << "Hello World!" << std::endl;
 
 // $ g++ HelloWorld.cpp Log.cpp -> compile them together
+// $ g++ *.cpp -> compile all the .cpp files
 // $ ./a.out
