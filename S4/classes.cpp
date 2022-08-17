@@ -22,5 +22,5 @@ class Player {
 // creating a new object variable -> instantiate
 // create a new instance -> instantiate a player object
 
-// by default, class members are private.
+// by default, class members are private; whereas in structs they are public.
 

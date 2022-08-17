@@ -1,15 +1,22 @@
+// `static` keyword outside of a class or struct: variable or function definition is visible to only one file.
+
+// `static` keyword inside of a class or struct: only one variable within that name in the class, every instance can
+// access it.
+
+// `static` keyword hides that identifier name or function definition to outside of the .cpp file.
+// we can use `extern` keyword to include variables outside of that .cpp file, if `static` isn't used.
+
+// if we define something twice, we'll get duplicate error; however, if we use `static` keyword for one of these, 
+// we won't get error.
+
+
 #include <iostream>
 #define LOG(x) std::cout << x << std::endl
 
-/*static*/ void print() // `static` keyword makes invisible to static.cpp
+int x = 5;
+
+
+static void print()
 {
 
-}
-
-extern int x; // we include that 5 value from static.cpp if `int x = 5`.
-// if `static x = 5`, it wouldn't be visible to this file.
-
-int main()
-{
-    LOG(x);
 }
