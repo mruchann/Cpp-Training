@@ -6,6 +6,8 @@
 // if we have at least one constructor with an argument, we must write a constructor with no parameter.
 // you cannot use a constructor like Entity e(); -> you can use like Entity* e = new Entity();
 
+// constructors are the functions called after an object is created; you can assign a value to a member variable directly.
+
 using namespace std;
 
 class Entity {
