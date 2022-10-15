@@ -1,0 +1,3 @@
+$ g++ -ansi -Wall -g -O0 -pedantic {filename...}.cpp
+
+$ ./a.out

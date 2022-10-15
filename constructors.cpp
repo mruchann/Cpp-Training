@@ -6,7 +6,6 @@
 // if we have at least one constructor with an argument, we must write a constructor with no parameter.
 // you cannot use a constructor like Entity e(); -> you can use like Entity* e = new Entity();
 
-
 using namespace std;
 
 class Entity {
@@ -20,7 +19,6 @@ public:
         Y = 0;
     }
     
-   
     // Entity() {} // -> default constructor
     
     Entity(int x, int y)
@@ -58,10 +56,9 @@ public:
 };
 
 int main() {
-    Entity e(10,5);  //default constructor
+    Entity e;  //default constructor
     e.Print();
-    Log l;
+    // Log l;
     Log::Write(); // we can only reach Write by using Log::
     return 0;
 }
-
