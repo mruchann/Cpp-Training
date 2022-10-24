@@ -27,6 +27,7 @@ public:
 
 class Player : public Entity
 {
+public:
     const char* Name;
 
     void PrintName()
