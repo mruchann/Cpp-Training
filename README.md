@@ -1,2 +1,2 @@
 # Cpp-Training
-Beginer to Advanced C++ source codes.
+Beginner to Advanced C++ source codes.
