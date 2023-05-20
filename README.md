@@ -1,5 +1,5 @@
 # Cpp-Training
-C++ Training source codes.
+Beginer to Advanced C++ source codes.
 
 How to run:
 
